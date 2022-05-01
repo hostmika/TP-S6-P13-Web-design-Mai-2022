@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>@yield('title')</title>
 
        
     </head>
@@ -13,7 +13,7 @@
         @yield('content')
 
        <footer>
-           <p>&copy;copyrigth <a href="about-us"> About us </a> </p>
+           <p>&copy;copyrigth {{ date('Y') }} @yield('footer') </p>
        </footer>
 
     </body>

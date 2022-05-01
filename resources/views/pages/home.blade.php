@@ -5,3 +5,11 @@
 
 <p>Its currently {{ 2+6}}.</p>
 @endsection
+
+@section('title')
+Home
+@endsection
+
+@section('footer')
+    <a href="about-us"> About us </a>
+@endsection

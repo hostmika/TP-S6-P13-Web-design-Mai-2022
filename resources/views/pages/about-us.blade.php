@@ -6,3 +6,7 @@
        <p>&hearts;build by mika</p>
        <p> <a href="/"> Home </a> </p>
 @endsection
+
+@section('title')
+About us
+@endsection
