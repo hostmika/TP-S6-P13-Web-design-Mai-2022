@@ -6,9 +6,7 @@
 <p>Its currently {{ 2+6}}.</p>
 @endsection
 
-@section('title')
-Home
-@endsection
+@section('title','Home |'.config('app.name'))
 
 @section('footer')
     <a href="about-us"> About us </a>
