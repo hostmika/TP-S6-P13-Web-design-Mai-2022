@@ -8,6 +8,3 @@
 
 @section('title','Home |'.config('app.name'))
 
-@section('footer')
-    <a href="{{ route('about') }}"> About us </a>
-@endsection
