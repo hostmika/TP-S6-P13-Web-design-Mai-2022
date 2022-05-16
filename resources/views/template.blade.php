@@ -11,7 +11,7 @@
     <body>
        
         @yield('content')
-
+        
        <footer>
            <p>&copy;copyrigth {{ date('Y') }} 
                 @if(! Route::is('about'))

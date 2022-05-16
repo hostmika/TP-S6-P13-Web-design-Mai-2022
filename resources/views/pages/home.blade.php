@@ -9,3 +9,4 @@
 
 @section('title','Home |'.config('app.name'))
 
+
