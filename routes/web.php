@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::name('home')->get('/', function () {
-    return view('pages.contenu');
-});
+Route::get('/',"App\Http\Controllers\ContenuController@allContenu")->name('contenu');
+Route::get('/login',"App\Http\Controllers\UserController@login")->name('login');
+Route::post('/connexion',"App\Http\Controllers\UserController@connexion")->name('connexion');
+Route::get('/deconnexion',"App\Http\Controllers\UserController@deconnexion")->name('deconnexion');
 
 

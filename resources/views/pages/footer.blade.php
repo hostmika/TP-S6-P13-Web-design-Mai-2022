@@ -1,3 +1,4 @@
+<br><br>
 <footer id="footer" class="footer bg-black">
     <div class="container">
         <div class="row">
@@ -5,15 +6,7 @@
                 <nav class="navbar navbar-default bootsnav footer-menu no-background">
                     <div class="container">  
 
-                        <!-- Start Atribute Navigation -->
-                        <div class="attr-nav">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>        
-                        <!-- End Atribute Navigation -->
+                       
 
 
                         <!-- Start Header Navigation -->
@@ -21,17 +14,17 @@
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-footer">
                                 <i class="fa fa-bars"></i>
                             </button>
-                            <a class="navbar-brand" href="#brand"><img src="assets/images/footer-logo.png" class="logo" alt=""></a>
+                            
                         </div>
                         <!-- End Header Navigation -->
 
                         <!-- navbar menu -->
                         <div class="collapse navbar-collapse" id="navbar-footer">
                             <ul class="nav navbar-nav navbar-center">
-                                <li><a href="#home">Home</a></li>                    
-                                <li><a href="#features">Features</a></li>
-                                <li><a href="#reviews">Reviews</a></li>
-                                <li><a href="#download">Download</a></li>
+                                <li><a href="#accueil">Acceuil</a></li>               
+                                <li><a href="#consequences">conséquences</a></li>
+                                <li><a href="#solutions">Solutions</a></li>
+                                <li><a href="#citations">Citation</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div>   
@@ -41,11 +34,8 @@
             <div class="col-md-12">
                 <div class="main_footer text-center p-top-40 p-bottom-30">
                     <p class="wow fadeInRight" data-wow-duration="1s">
-                        Made with 
-                        <i class="fa fa-heart"></i>
-                        by 
-                        <a target="_blank" href="https://bootstrapthemes.co">Bootstrap Themes</a> 
-                        2016. All Rights Reserved
+                        Rechauffement climatique Copyright &copy;<script>document.write(new Date().getFullYear());</script> by RAKOTONDRAIBE Michael
+                        
                     </p>
                 </div>
             </div>
