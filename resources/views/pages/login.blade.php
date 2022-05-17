@@ -49,7 +49,7 @@
                             </div>
                             <br>
                             <div id="register-link" class="text-right">
-                                <a href="#" class="text-info">Retour vers l'Accueil </a>
+                                <a href="/" class="text-info">Retour vers l'Accueil </a>
                             </div>
                         </form>
                     </div>
